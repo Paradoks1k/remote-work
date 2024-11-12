@@ -1,7 +1,12 @@
+import { Header } from "./components/header";
+import { Wrapper } from "./components/Wrapper";
+
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Wrapper>
+        <Header />
+      </Wrapper>
     </div>
   );
 }

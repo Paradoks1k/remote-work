@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         "almost-white": "hsl(0, 0%, 98%)",
-        "medium-gray": "(0, 0%, 41%)",
-        "almost-black": "(0, 0%, 8%)",
+        "medium-gray": "hsl(0, 0%, 41%)",
+        "almost-black": "hsl(0, 0%, 8%)",
       },
     },
   },
