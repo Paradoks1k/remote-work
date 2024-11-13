@@ -1,4 +1,5 @@
 import { Header } from "./components/header";
+import { MainSection } from "./components/main-section/main-section";
 import { Wrapper } from "./components/Wrapper";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Wrapper>
         <Header />
+        <MainSection />
       </Wrapper>
     </div>
   );
